@@ -16,16 +16,16 @@ body {
 
 .button {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     background-image: linear-gradient(rgba(194, 104, 133, 0.598), tomato);
     text-shadow: 1px 1px 0px;
-    width: 400;
     color: aliceblue;
     border-radius: 5px;
-    text-align: center;
-    margin-left: 50%;
+    margin-left: 40%;
     padding: 4px 15px;
-    margin-bottom: 5%;
+
+
+
 
 
 
@@ -47,6 +47,7 @@ body {
     width: 700;
     font-size: 80px;
     color: aliceblue;
+
 
 }
 
@@ -83,7 +84,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+
 
 
 
@@ -91,13 +92,13 @@ body {
 }
 
 #color {
-    background-color: #efbcbc;
-
     color: rgb(253, 11, 11);
     padding: 32px 32px;
-    box-shadow: 2px 2px rgb(255, 0, 0);
 
-
+    display: inline-block;
+    margin-left: auto;
+    background-color: rgb(240, 215, 215);
+    border: 2px solid red;
 
 
 
@@ -105,6 +106,9 @@ body {
 
 .count-num {
     margin-left: 300px;
+
+    margin-left: 1%;
+    display: inline-block;
 
 }
 
@@ -117,6 +121,7 @@ body {
     margin-bottom: 5%;
     border-radius: 5px;
     margin-top: 5%;
+    text-align: justify;
 
     display: inline-block;
 
@@ -165,7 +170,7 @@ body {
 
 #butt {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
     background-image: linear-gradient(rgba(194, 104, 133, 0.598), tomato);
     text-shadow: 1px 1px 0px;
     width: 400;
@@ -190,4 +195,20 @@ body {
 
 
 
+}
+
+#last {
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: rgb(218, 86, 86);
+    text-align: center;
+    width: 700;
+
+    font-size: 20px;
+}
+
+.style {
+    margin-left: 35%;
+    display: inline-block;
 }
